@@ -1,0 +1,28 @@
+@use '../mixins/responsive.scss' as *;
+@use '../mixins/pseudo.scss' as *;
+
+
+.featuring{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    &__title{
+        text-align: center;
+        margin-top: 5rem;
+        font-size: 2.5rem;
+    }
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+&__icon{}
+&__title{}
+&__text{
+    color: #837D88;
+    text-align: center;
+}
+}

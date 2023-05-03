@@ -1,0 +1,41 @@
+@use '../mixins/responsive.scss' as *;
+@use '../mixins/pseudo.scss' as *;
+
+
+
+.principal{
+    position: relative;
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+&__photo{}
+&__content{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-image: url("/assets/images/bg-pattern-intro-left-desktop.svg");
+    background-color: #2D2641;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 7rem;
+    color: white;
+}
+&__title{
+    font-size: 2.9rem;
+}
+&__text{
+    font-size: 1.3rem;
+}
+&__botton{
+    border: 1px solid white;
+    width: 140px;
+    height: 40px;
+    padding: 0.6rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+}
