@@ -1,1 +1,28 @@
-/* ESTILOS DEL FOOTER */
+@use "../mixins/responsive.scss" as *;
+@use "../mixins/pseudo.scss" as *;
+
+.footer {
+  padding: 7rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-image: url("/assets/images/bg-pattern-footer-mobile.svg");
+  background-color: #fafafa;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 30rem;
+  color: white;
+  @include responsive(laptop) {
+    background-size: 100rem;
+  }
+
+  &__logo {
+    margin-bottom: 2rem;
+  }
+  &__redes {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,33 @@
+@use "../mixins/responsive.scss" as *;
+@use "../mixins/pseudo.scss" as *;
+
+.card {
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-image: url("/assets/images/bg-pattern-how-we-work-mobile.svg");
+  background-color: #2d2641;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 15rem;
+  color: white;
+  @include responsive(laptop) {
+    margin: 5rem;
+  }
+
+  &__title {
+    font-size: 2.9rem;
+  }
+
+  &__botton {
+    border: 1px solid white;
+    width: 140px;
+    height: 40px;
+    padding: 0.6rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+}

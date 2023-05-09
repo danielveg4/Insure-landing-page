@@ -1,28 +1,49 @@
-@use '../mixins/responsive.scss' as *;
-@use '../mixins/pseudo.scss' as *;
+@use "../mixins/responsive.scss" as *;
+@use "../mixins/pseudo.scss" as *;
 
-
-.featuring{
+.featuring {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  @include responsive(laptop) {
+    margin-top: 1rem;
     display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    &__title{
-        text-align: center;
-        margin-top: 5rem;
-        font-size: 2.5rem;
-    }
-}
-
-.feature{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2rem;
-&__icon{}
-&__title{}
-&__text{
-    color: #837D88;
+    flex-direction: row;
+  }
+  &__title {
     text-align: center;
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    @include responsive(laptop) {
+      margin-top: 16rem;
+    }
+  }
 }
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  @include responsive(laptop) {
+    text-align: left;
+    align-items: start;
+    justify-content: left;
+    padding: 2rem;
+  }
+
+  &__icon {
+  }
+  &__title {
+  }
+  &__text {
+    color: #837d88;
+    text-align: center;
+    @include responsive(laptop) {
+      text-align: left;
+      align-items: start;
+      justify-content: left;
+    }
+  }
 }
