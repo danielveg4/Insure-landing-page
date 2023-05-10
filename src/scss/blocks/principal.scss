@@ -16,9 +16,8 @@
   &__photo {
     @include responsive(laptop) {
       position: relative;
-      z-index: 20;
       bottom: -5rem;
-      left: -2rem;
+      left: -5rem;
       width: 100%;
     }
   }
@@ -36,8 +35,8 @@
     color: white;
     @include responsive(laptop) {
       margin-top: 5rem;
-      padding-right: 20%;
-      padding-left: 10%;
+      padding-left: 10rem;
+      padding-right:20rem;
       text-align: left;
       align-items: left;
     }

@@ -3,26 +3,55 @@
 
 .footer {
   padding: 7rem;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
   background-image: url("/assets/images/bg-pattern-footer-mobile.svg");
   background-color: #fafafa;
   background-repeat: no-repeat;
   background-position: top;
   background-size: 30rem;
-  color: white;
   @include responsive(laptop) {
-    background-size: 100rem;
+    background-size: 70rem;
+    background-position:left
   }
 
+ &__top {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: white;
+  @include responsive(laptop) {
+    flex-direction: row;
+    justify-content: space-around;
+ }
+}
   &__logo {
     margin-bottom: 2rem;
+    @include responsive(laptop) {
+      margin-bottom: 0;
+    }
   }
   &__redes {
     display: flex;
     flex-direction: row;
     gap: 1rem;
   }
+
+&__bottom{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 4rem;
+  @include responsive(laptop) {
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: left;
+  border-top: 1px solid #979797;
+  padding-top: 3rem;
+  font-weight: bold;
+  }
+}
+&__company{}
+&__text{
+  color: #2D2641;
+}
 }
