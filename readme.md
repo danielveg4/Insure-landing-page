@@ -12,11 +12,13 @@ En esta página de muestra podemos explorar cómo quedaría tanto en versión la
 como en versión movicl, probando una disposición grid con varios elementos y
 bloques diferenciados.
 
-## Capturas de pantalla
+## Vista previa del proyecto
 
-https://github.com/danielveg4/PENDINGinsure-landing-page/blob/main/capturaI2.png?raw=true
+Si quieres echar un vistazo al proyecto, te recomiendo:
 
-https://github.com/danielveg4/PENDINGinsure-landing-page/blob/main/capturaI3.png?raw=true
+![Captura del proyecto](https://github.com/danielveg4/PENDINGinsure-landing-page/blob/main/capturaI2.png?raw=true)
+
+![Captura del proyecto](https://github.com/danielveg4/PENDINGinsure-landing-page/blob/main/capturaI3.png?raw=true)
 
 ## Tecnologías 🛠
 
