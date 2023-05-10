@@ -1,16 +1,22 @@
 # Insure landing page
 
-![Imagen del proyecto](https://github.com/danielveg4/skilled-learning/blob/main/captura.png?raw=true)
+![Imagen del proyecto](https://github.com/danielveg4/PENDINGinsure-landing-page/blob/main/capturaI.png?raw=true)
 
-## Ejemplo en vivo
+## En vivo
 
-- [URL-de-github-pages-de-este-proyecto](https://danielveg4.github.io/skilled-learning/)
+- [URL-de-github-pages-de-este-proyecto](https://danielveg4.github.io/PENDINGinsure-landing-page/)
 
 ## Descripción 📑
 
 En esta página de muestra podemos explorar cómo quedaría tanto en versión laptop
 como en versión movicl, probando una disposición grid con varios elementos y
 bloques diferenciados.
+
+## Capturas de pantalla
+
+https://github.com/danielveg4/PENDINGinsure-landing-page/blob/main/capturaI2.png?raw=true
+
+https://github.com/danielveg4/PENDINGinsure-landing-page/blob/main/capturaI3.png?raw=true
 
 ## Tecnologías 🛠
 
